@@ -5,6 +5,12 @@
             "name": "CodeLens (Launch) - TestSokoban",
             "request": "launch",
             "mainClass": "TestSokoban"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestSokoban",
+            "request": "launch",
+            "mainClass": "logic.TestSokoban"
         }
     ]
 }
