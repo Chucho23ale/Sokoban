@@ -5,17 +5,17 @@ import java.awt.*;
 import java.util.ArrayList;
 
 import javax.swing.*;
-import Logic.*;
+import logic.*;
 
 import javax.swing.JFrame;
 
 public class Window extends JFrame {
 	private Sokoban sokoban;
     private ButtonsPanel buttons;
-    private Board board;
+    public Board board;
 
 
-    public Board(Sokoban sokoban) {
+    public Window(Sokoban sokoban) {
 
         this.sokoban = sokoban;
         buttons = new ButtonsPanel(this);
@@ -36,6 +36,19 @@ public class Window extends JFrame {
 
 
     }
+
+    public void draw(Element[][] e){
+        board.draw(e);
+    }
+
+    public void save(){
+
+    }
+
+    public void load(){
+
+    }
+    
 
 
 }

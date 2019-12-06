@@ -1,11 +1,11 @@
 package gui;
 
-import javax.swing.*;
 import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
+import java.io.*;
 
-public class ButtonsPanel extends JFrame implements ActionListener {
+public class ButtonsPanel extends JPanel implements ActionListener {
 
     private JButton save;
     private JButton load;
@@ -54,4 +54,3 @@ public class ButtonsPanel extends JFrame implements ActionListener {
 
 }
 
-}

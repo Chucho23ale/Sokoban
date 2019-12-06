@@ -1,6 +1,5 @@
 package logic;
 
-import java.io.IOException;
 import gui.*;
 import java.util.ArrayList;
 
